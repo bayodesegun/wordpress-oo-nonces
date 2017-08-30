@@ -1,0 +1,23 @@
+{
+	"name": "bayodesegun/wordpress-oo-nonces",
+	"description": "WordPress Object-Oriented Nonces",
+	"type": "wordpress-plugin",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Bayode Aderinola",
+			"email": "bayodesegun@bayodesegun.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0",
+	},
+	"autoload": {
+		"psr-0": {
+			"": "src/"
+		}
+	},
+	"extra": {
+		"installer-name": "wordpress-oo-nonces"
+	}
+}
